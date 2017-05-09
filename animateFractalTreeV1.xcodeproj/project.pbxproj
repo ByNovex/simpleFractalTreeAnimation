@@ -14,6 +14,12 @@
 		50F56F731EC21DD700CF070D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F56F711EC21DD700CF070D /* LaunchScreen.storyboard */; };
 		50F56F7E1EC21DD700CF070D /* animateFractalTreeV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F7D1EC21DD700CF070D /* animateFractalTreeV1Tests.swift */; };
 		50F56F891EC21DD700CF070D /* animateFractalTreeV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F881EC21DD700CF070D /* animateFractalTreeV1UITests.swift */; };
+		50F56F971EC21E3800CF070D /* ShapeLayerFractalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F961EC21E3800CF070D /* ShapeLayerFractalTree.swift */; };
+		50F56F991EC21F1500CF070D /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F981EC21F1500CF070D /* Tree.swift */; };
+		50F56F9B1EC21F6F00CF070D /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F9A1EC21F6F00CF070D /* Branch.swift */; };
+		50F56F9D1EC2237400CF070D /* extensionConvertToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F9C1EC2237400CF070D /* extensionConvertToRadians.swift */; };
+		50F56F9F1EC228D900CF070D /* UIViewFractal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F9E1EC228D900CF070D /* UIViewFractal.swift */; };
+		50F56FA11EC23DCB00CF070D /* ViewAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56FA01EC23DCB00CF070D /* ViewAnimated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		50F56F841EC21DD700CF070D /* animateFractalTreeV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateFractalTreeV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F56F881EC21DD700CF070D /* animateFractalTreeV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateFractalTreeV1UITests.swift; sourceTree = "<group>"; };
 		50F56F8A1EC21DD700CF070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F56F961EC21E3800CF070D /* ShapeLayerFractalTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerFractalTree.swift; sourceTree = "<group>"; };
+		50F56F981EC21F1500CF070D /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		50F56F9A1EC21F6F00CF070D /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		50F56F9C1EC2237400CF070D /* extensionConvertToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionConvertToRadians.swift; sourceTree = "<group>"; };
+		50F56F9E1EC228D900CF070D /* UIViewFractal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewFractal.swift; sourceTree = "<group>"; };
+		50F56FA01EC23DCB00CF070D /* ViewAnimated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				50F56F681EC21DD700CF070D /* AppDelegate.swift */,
 				50F56F6A1EC21DD700CF070D /* ViewController.swift */,
 				50F56F6C1EC21DD700CF070D /* Main.storyboard */,
+				50F56FA01EC23DCB00CF070D /* ViewAnimated.swift */,
+				50F56F9E1EC228D900CF070D /* UIViewFractal.swift */,
+				50F56F961EC21E3800CF070D /* ShapeLayerFractalTree.swift */,
+				50F56F981EC21F1500CF070D /* Tree.swift */,
+				50F56F9A1EC21F6F00CF070D /* Branch.swift */,
+				50F56F9C1EC2237400CF070D /* extensionConvertToRadians.swift */,
 				50F56F6F1EC21DD700CF070D /* Assets.xcassets */,
 				50F56F711EC21DD700CF070D /* LaunchScreen.storyboard */,
 				50F56F741EC21DD700CF070D /* Info.plist */,
@@ -263,7 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F56F6B1EC21DD700CF070D /* ViewController.swift in Sources */,
+				50F56F9D1EC2237400CF070D /* extensionConvertToRadians.swift in Sources */,
+				50F56F991EC21F1500CF070D /* Tree.swift in Sources */,
+				50F56FA11EC23DCB00CF070D /* ViewAnimated.swift in Sources */,
+				50F56F9B1EC21F6F00CF070D /* Branch.swift in Sources */,
+				50F56F971EC21E3800CF070D /* ShapeLayerFractalTree.swift in Sources */,
 				50F56F691EC21DD700CF070D /* AppDelegate.swift in Sources */,
+				50F56F9F1EC228D900CF070D /* UIViewFractal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
