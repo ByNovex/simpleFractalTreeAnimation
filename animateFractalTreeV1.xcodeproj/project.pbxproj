@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F56F691EC21DD700CF070D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F681EC21DD700CF070D /* AppDelegate.swift */; };
+		50F56F6B1EC21DD700CF070D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F6A1EC21DD700CF070D /* ViewController.swift */; };
+		50F56F6E1EC21DD700CF070D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F56F6C1EC21DD700CF070D /* Main.storyboard */; };
+		50F56F701EC21DD700CF070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F56F6F1EC21DD700CF070D /* Assets.xcassets */; };
+		50F56F731EC21DD700CF070D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F56F711EC21DD700CF070D /* LaunchScreen.storyboard */; };
+		50F56F7E1EC21DD700CF070D /* animateFractalTreeV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F7D1EC21DD700CF070D /* animateFractalTreeV1Tests.swift */; };
+		50F56F891EC21DD700CF070D /* animateFractalTreeV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F56F881EC21DD700CF070D /* animateFractalTreeV1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F56F7A1EC21DD700CF070D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F56F5D1EC21DD700CF070D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F56F641EC21DD700CF070D;
+			remoteInfo = animateFractalTreeV1;
+		};
+		50F56F851EC21DD700CF070D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F56F5D1EC21DD700CF070D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F56F641EC21DD700CF070D;
+			remoteInfo = animateFractalTreeV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F56F651EC21DD700CF070D /* animateFractalTreeV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animateFractalTreeV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F56F681EC21DD700CF070D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50F56F6A1EC21DD700CF070D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50F56F6D1EC21DD700CF070D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F56F6F1EC21DD700CF070D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F56F721EC21DD700CF070D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F56F741EC21DD700CF070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F56F791EC21DD700CF070D /* animateFractalTreeV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateFractalTreeV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F56F7D1EC21DD700CF070D /* animateFractalTreeV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateFractalTreeV1Tests.swift; sourceTree = "<group>"; };
+		50F56F7F1EC21DD700CF070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F56F841EC21DD700CF070D /* animateFractalTreeV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateFractalTreeV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F56F881EC21DD700CF070D /* animateFractalTreeV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateFractalTreeV1UITests.swift; sourceTree = "<group>"; };
+		50F56F8A1EC21DD700CF070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F56F621EC21DD700CF070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F761EC21DD700CF070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F811EC21DD700CF070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F56F5C1EC21DD700CF070D = {
+			isa = PBXGroup;
+			children = (
+				50F56F671EC21DD700CF070D /* animateFractalTreeV1 */,
+				50F56F7C1EC21DD700CF070D /* animateFractalTreeV1Tests */,
+				50F56F871EC21DD700CF070D /* animateFractalTreeV1UITests */,
+				50F56F661EC21DD700CF070D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F56F661EC21DD700CF070D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F56F651EC21DD700CF070D /* animateFractalTreeV1.app */,
+				50F56F791EC21DD700CF070D /* animateFractalTreeV1Tests.xctest */,
+				50F56F841EC21DD700CF070D /* animateFractalTreeV1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F56F671EC21DD700CF070D /* animateFractalTreeV1 */ = {
+			isa = PBXGroup;
+			children = (
+				50F56F681EC21DD700CF070D /* AppDelegate.swift */,
+				50F56F6A1EC21DD700CF070D /* ViewController.swift */,
+				50F56F6C1EC21DD700CF070D /* Main.storyboard */,
+				50F56F6F1EC21DD700CF070D /* Assets.xcassets */,
+				50F56F711EC21DD700CF070D /* LaunchScreen.storyboard */,
+				50F56F741EC21DD700CF070D /* Info.plist */,
+			);
+			path = animateFractalTreeV1;
+			sourceTree = "<group>";
+		};
+		50F56F7C1EC21DD700CF070D /* animateFractalTreeV1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50F56F7D1EC21DD700CF070D /* animateFractalTreeV1Tests.swift */,
+				50F56F7F1EC21DD700CF070D /* Info.plist */,
+			);
+			path = animateFractalTreeV1Tests;
+			sourceTree = "<group>";
+		};
+		50F56F871EC21DD700CF070D /* animateFractalTreeV1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F56F881EC21DD700CF070D /* animateFractalTreeV1UITests.swift */,
+				50F56F8A1EC21DD700CF070D /* Info.plist */,
+			);
+			path = animateFractalTreeV1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F56F641EC21DD700CF070D /* animateFractalTreeV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F56F8D1EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1" */;
+			buildPhases = (
+				50F56F611EC21DD700CF070D /* Sources */,
+				50F56F621EC21DD700CF070D /* Frameworks */,
+				50F56F631EC21DD700CF070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = animateFractalTreeV1;
+			productName = animateFractalTreeV1;
+			productReference = 50F56F651EC21DD700CF070D /* animateFractalTreeV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F56F781EC21DD700CF070D /* animateFractalTreeV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F56F901EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1Tests" */;
+			buildPhases = (
+				50F56F751EC21DD700CF070D /* Sources */,
+				50F56F761EC21DD700CF070D /* Frameworks */,
+				50F56F771EC21DD700CF070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F56F7B1EC21DD700CF070D /* PBXTargetDependency */,
+			);
+			name = animateFractalTreeV1Tests;
+			productName = animateFractalTreeV1Tests;
+			productReference = 50F56F791EC21DD700CF070D /* animateFractalTreeV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F56F831EC21DD700CF070D /* animateFractalTreeV1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F56F931EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1UITests" */;
+			buildPhases = (
+				50F56F801EC21DD700CF070D /* Sources */,
+				50F56F811EC21DD700CF070D /* Frameworks */,
+				50F56F821EC21DD700CF070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F56F861EC21DD700CF070D /* PBXTargetDependency */,
+			);
+			name = animateFractalTreeV1UITests;
+			productName = animateFractalTreeV1UITests;
+			productReference = 50F56F841EC21DD700CF070D /* animateFractalTreeV1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F56F5D1EC21DD700CF070D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Novex;
+				TargetAttributes = {
+					50F56F641EC21DD700CF070D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E5UA8327Y8;
+						ProvisioningStyle = Automatic;
+					};
+					50F56F781EC21DD700CF070D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E5UA8327Y8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F56F641EC21DD700CF070D;
+					};
+					50F56F831EC21DD700CF070D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E5UA8327Y8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F56F641EC21DD700CF070D;
+					};
+				};
+			};
+			buildConfigurationList = 50F56F601EC21DD700CF070D /* Build configuration list for PBXProject "animateFractalTreeV1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F56F5C1EC21DD700CF070D;
+			productRefGroup = 50F56F661EC21DD700CF070D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F56F641EC21DD700CF070D /* animateFractalTreeV1 */,
+				50F56F781EC21DD700CF070D /* animateFractalTreeV1Tests */,
+				50F56F831EC21DD700CF070D /* animateFractalTreeV1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F56F631EC21DD700CF070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F56F731EC21DD700CF070D /* LaunchScreen.storyboard in Resources */,
+				50F56F701EC21DD700CF070D /* Assets.xcassets in Resources */,
+				50F56F6E1EC21DD700CF070D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F771EC21DD700CF070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F821EC21DD700CF070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F56F611EC21DD700CF070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F56F6B1EC21DD700CF070D /* ViewController.swift in Sources */,
+				50F56F691EC21DD700CF070D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F751EC21DD700CF070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F56F7E1EC21DD700CF070D /* animateFractalTreeV1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F56F801EC21DD700CF070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F56F891EC21DD700CF070D /* animateFractalTreeV1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F56F7B1EC21DD700CF070D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F56F641EC21DD700CF070D /* animateFractalTreeV1 */;
+			targetProxy = 50F56F7A1EC21DD700CF070D /* PBXContainerItemProxy */;
+		};
+		50F56F861EC21DD700CF070D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F56F641EC21DD700CF070D /* animateFractalTreeV1 */;
+			targetProxy = 50F56F851EC21DD700CF070D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F56F6C1EC21DD700CF070D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F56F6D1EC21DD700CF070D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F56F711EC21DD700CF070D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F56F721EC21DD700CF070D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F56F8B1EC21DD700CF070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F56F8C1EC21DD700CF070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F56F8E1EC21DD700CF070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50F56F8F1EC21DD700CF070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50F56F911EC21DD700CF070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animateFractalTreeV1.app/animateFractalTreeV1";
+			};
+			name = Debug;
+		};
+		50F56F921EC21DD700CF070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animateFractalTreeV1.app/animateFractalTreeV1";
+			};
+			name = Release;
+		};
+		50F56F941EC21DD700CF070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = animateFractalTreeV1;
+			};
+			name = Debug;
+		};
+		50F56F951EC21DD700CF070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E5UA8327Y8;
+				INFOPLIST_FILE = animateFractalTreeV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Novex.animateFractalTreeV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = animateFractalTreeV1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F56F601EC21DD700CF070D /* Build configuration list for PBXProject "animateFractalTreeV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F56F8B1EC21DD700CF070D /* Debug */,
+				50F56F8C1EC21DD700CF070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F56F8D1EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F56F8E1EC21DD700CF070D /* Debug */,
+				50F56F8F1EC21DD700CF070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F56F901EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F56F911EC21DD700CF070D /* Debug */,
+				50F56F921EC21DD700CF070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F56F931EC21DD700CF070D /* Build configuration list for PBXNativeTarget "animateFractalTreeV1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F56F941EC21DD700CF070D /* Debug */,
+				50F56F951EC21DD700CF070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F56F5D1EC21DD700CF070D /* Project object */;
+}
